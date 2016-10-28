@@ -24,7 +24,7 @@ const fn_token = function *() {
     sha1.update(tmpStr);
     tmpStr = sha1.digest('base64');
 
-    if (tmpStr === echostr) {
+    if (tmpStr === signature) {
         this.body = echostr;
     } else {
         console.log('token validation failed.');
