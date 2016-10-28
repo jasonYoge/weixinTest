@@ -1,0 +1,29 @@
+{
+  "name": "weixin",
+  "version": "1.0.0",
+  "description": "weixin test",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planningFor/weixinTest.git"
+  },
+  "keywords": [
+    "weixin",
+    "node.js",
+    "javascript"
+  ],
+  "author": "planningFor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planningFor/weixinTest/issues"
+  },
+  "homepage": "https://github.com/planningFor/weixinTest#readme",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-router": "^5.4.0"
+  }
+}
