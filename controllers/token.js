@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const sha1 = crypto.createHash('sha1');
-
 //  get token from local .txt file
 const TOKEN = fs.readFileSync(path.resolve(__dirname, '../const/token.txt'))
     .toString().replace(/[\r\n]/g, '');
