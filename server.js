@@ -12,6 +12,6 @@ app.use(function *(next) {
 // console.log(mapping());
 app.use(mapping());
 
-app.listen(8080, () => {
-    console.log('running at port 8080.');
+app.listen(80, () => {
+    console.log('running at port 80.');
 });
